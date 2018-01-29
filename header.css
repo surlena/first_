@@ -1,12 +1,35 @@
 header{
-    background-color: rgb(83, 255, 198);
+
     width: 1450px;
     border: 2px solid black;
     height: 100px;
 }
 .location {
     width: 300px;
-    height: 50px;
-    background-color: brown;
+    position: relative;
+    height: 60px;
     border: 1px solid red;
+    margin-left: 210px;
+    
+    
+}
+.icon{
+    position: absolute;
+    top: 30px;
+    font-size: 25px;
+    left: 20px;
+    color: #4169E0;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}
+select{
+    width: 78px;
+    position: absolute;
+    top: 35px;
+    right: 12px;
+    background-color: gray;
+    height: 24px;
+    border-radius: 14px;
+}
+option{
+    color: #4169E0;
 }
